@@ -41,6 +41,12 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
   - 1003 [Subject ID]
     - 1003_1.bdf [BDF file]
 
+### Notes
+
+- Subject-level folder names must include only digits
+  - Valid folder name: 12345
+  - Invalid folder name: Sub12345
+- BDF files will be concatenated in alphebetical order into a single .mat file
 
 ## Technical Information
 This pipeline was coded in MATLAB (R2021b) on a PC platform running Windows 10 . The pipeline was also tested for Mac compatibility in MATLAB (R2022b) on a Mac Mini running Monterey (v 12.5.1)
