@@ -17,7 +17,7 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 7. Filtering (high and low pass)
 8. Re-reference to common average
 9. ICA
-  - Optional step
+   - Optional step
 10. Epoch
 11. Baseline
 12. Trial Rejection
@@ -25,6 +25,14 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 14. Finalize
 15. Save data
 16. Generate log file
+
+## Required Folder Structure
+
+- ParentDirectory
+ - SubjectDirectory
+  - xyz_1.bdf
+  - xyz_2.bdf
+  - xyz_3.bdf
 
 
 ## Technical Information
