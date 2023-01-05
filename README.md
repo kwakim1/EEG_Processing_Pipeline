@@ -26,13 +26,20 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 15. Save data
 16. Generate log file
 
-## Required Folder Structure
+## Required Input Folder Structure
 
-- ParentDirectory
- - SubjectDirectory
-  - xyz_1.bdf
-  - xyz_2.bdf
-  - xyz_3.bdf
+- My_Data [Parent Directory]
+  - 1001 [Subject ID]
+    - 1001_1.bdf [BDF file]
+    - 1001_2.bdf [BDF file]
+    - 1001_3.bdf [BDF file]
+  - 1002 [Subject ID]
+    - 1002_1.bdf [BDF file]
+    - 1002_2.bdf [BDF file]
+    - 1002_3.bdf [BDF file]
+    - 1002_4.bdf [BDF file]
+  - 1003 [Subject ID]
+    - 1003_1.bdf [BDF file]
 
 
 ## Technical Information
