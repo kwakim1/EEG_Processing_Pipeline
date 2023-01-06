@@ -6,7 +6,7 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 1. Initialize / load data
 2. Resample
    - Optional step
-4. Remove externall channels
+4. Remove external channels
 5. Get channel locations
 6. Line noise removal
 7. Filtering (high and low pass)
