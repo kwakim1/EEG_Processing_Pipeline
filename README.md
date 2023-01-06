@@ -13,8 +13,8 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 8. Re-reference to common average
 9. ICA
    - Optional step
-10. Remove artefactual components from eye movements
-   - Optional step
+10. Remove artifactual components (eye-related)
+    - Optional step
 11. Epoch
 12. Baseline
 13. Trial Rejection
