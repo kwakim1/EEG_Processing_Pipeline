@@ -13,13 +13,15 @@ A pipeline to clean and epoch EEG data collected using a Biosemi ActiveTwo EEG s
 8. Re-reference to common average
 9. ICA
    - Optional step
-10. Epoch
-11. Baseline
-12. Trial Rejection
-13. Generate plots for quality control and manual inspection
-14. Finalize
-15. Save data
-16. Generate log file
+10. Remove artefactual components from eye movements
+   - Optional step
+11. Epoch
+12. Baseline
+13. Trial Rejection
+14. Generate plots for quality control and manual inspection
+15. Finalize
+16. Save data
+17. Generate log file
 
 ## Requirements
 1. MATLAB
