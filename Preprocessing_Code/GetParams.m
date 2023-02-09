@@ -39,7 +39,6 @@ params.ResponseCond=[]; %trigger corresponding to button press response, e.g. 1
 params.Analysis='stimulus_locked'; %must be set to 'stimulus_locked' or 'response_locked' depending on the desired analysis
 params.additional_erp_str='';
 
-assert(abs(params.blmin) > abs(params.tmin),'Must baseline within epoch--make sure that abs(params.timin) > abs(params.blmin)')
 assert(params.tmin < params.tmax,'Invalid epoch because params.timin is not less than params.tmax')
 assert(isequal(length(params.trig_names),length(params.trigs)),'Verify that the length of params.trigs is equal to params.trig_names (there needs to be a name for every trigger)')
 
