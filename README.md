@@ -44,6 +44,8 @@ dirpath.EEGLabDir='PATH/TO/EEGLAB';
   - **Example for Mac**: '/Users/me/Desktop/Preprocessing_Code'
   - **Example for PC**: 'C:\Users\me\Desktop\Preprocessing_Code'
 
+**Warning**: path/to/code/director must be to the folder called "Preprocessing_Code" and _not_ to the folder called "EEG_Processing_Pipeline"
+
 **PATH/TO/DATA/DIR**: The full path to the parent directory containing your subject-level folders
 
   - **Example for Mac**: '/Users/me/Desktop/My_Data'
