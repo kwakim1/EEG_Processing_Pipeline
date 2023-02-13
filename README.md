@@ -125,7 +125,7 @@ params.additional_erp_str='';
      params.Analysis='stimulus_locked'; %must be set to 'stimulus_locked' or 'response_locked' depending on the desired analysis
      params.additional_erp_str='_baseline50ms';
     ```
-Note: params.additional_erp_str should not contain any periods, since all characters following the period will be interpreted as a file extention. For example "_ .1highpassfilter" is not valid since it contains a period.
+**Warning**: params.additional_erp_str should not contain any periods because all characters following the period will be interpreted by MATLAB as a file extention. For example "_ .1highpassfilter" is not valid entry for params.additional_erp_str.
 
 
 **GetParams.m: Channel rejection parameters**
