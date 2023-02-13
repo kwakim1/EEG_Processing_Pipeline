@@ -13,7 +13,7 @@ function [EEG_ica,bad_components] = PerformICA(EEG_ica)
         %represent eye components
 
 %5/4/22 - verified by KW
-pca = EEG_ica.nbchan-1; %the PCA part of the ICA needs stops the rank-deficiency 
+pca = EEG_ica.nbchan - (size(EEG_ica.chaninfo.removedchans,2)) -1 %2/13/23 - fix added to account for interpolated channels and avg reference
 EEG_ica = pop_runica(EEG_ica, 'extended',1,'interupt','on','pca',pca); %using runica function, with the PCA part
 EEG_ica = iclabel(EEG_ica); %does ICLable function
 ICA_components = EEG_ica.etc.ic_classification.ICLabel.classifications ; %creates a new matrix with ICA components
